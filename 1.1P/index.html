@@ -1,15 +1,35 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>SIT725 Week 1</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIT 725 Prac1</title>
+    <meta name="description" content="basic template for SIT 725 Prac1">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="SIT 725 Prac1">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="basic template for SIT 725 Prac1">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
+
 <body>
-    <h1>SIT725 Applied Software Engineering</h1>
-    <p id="message">Welcome to my first JavaScript web application.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 id="heading" class="center-align">SIT 725</h1>
+            </div>
 
-    <button onclick="changeMessage()">Click Me</button>
+            <div class="col s12 center-align">
+                <a class="waves-effect waves-light btn" onclick="changeText()">Change Text</a>
+            </div>
+        </div>
+    </div>
 
-    <script src="scripts.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
