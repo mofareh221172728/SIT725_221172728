@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Black backpack</title>
+  <desc id="desc">A simple illustration of a black backpack on an amber background.</desc>
+  <rect width="720" height="480" fill="#f2c96f"/>
+  <path d="M265 148c0-66 35-103 95-103s95 37 95 103" fill="none" stroke="#14283d" stroke-width="25"/>
+  <path d="M245 132h230c39 0 70 31 70 70v202H175V202c0-39 31-70 70-70z" fill="#23384d" stroke="#14283d" stroke-width="12"/>
+  <path d="M175 238h370" stroke="#5c7082" stroke-width="10"/>
+  <rect x="245" y="258" width="230" height="112" rx="28" fill="#14283d" stroke="#5c7082" stroke-width="8"/>
+  <path d="M267 296h186" stroke="#2d8077" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="360" cy="332" r="13" fill="#f2b441"/>
+  <path d="M175 214c-42 9-63 45-63 108v71" fill="none" stroke="#14283d" stroke-width="24" stroke-linecap="round"/>
+  <path d="M545 214c42 9 63 45 63 108v71" fill="none" stroke="#14283d" stroke-width="24" stroke-linecap="round"/>
+</svg>

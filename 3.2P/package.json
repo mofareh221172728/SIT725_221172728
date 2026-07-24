@@ -1,0 +1,22 @@
+{
+  "name": "campus-lost-and-found",
+  "version": "1.0.0",
+  "description": "SIT725 Task 3.2P Campus Lost and Found application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Mofareh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
