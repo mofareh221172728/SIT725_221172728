@@ -1,0 +1,26 @@
+{
+  "name": "campus-lost-and-found",
+  "version": "1.0.0",
+  "description": "SIT725 Task 4.2P Campus Lost and Found application with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Mofareh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^9.8.1"
+  }
+}

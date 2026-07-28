@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Lost and Found</title>
+  <meta name="description" content="A campus lost and found application with MongoDB for SIT725 Task 4.2P">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="site-nav">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">
+        <i class="material-icons">search</i>
+        <span>Campus Lost &amp; Found</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section">
+      <div class="container center-align">
+        <div class="hero-icon">
+          <i class="material-icons">travel_explore</i>
+        </div>
+        <h1>Campus Lost and Found</h1>
+        <p class="hero-text">
+          Browse items that were recently found on campus. Check the item
+          details before contacting the campus service desk.
+        </p>
+        <a class="waves-effect waves-light btn modal-trigger claim-button" href="#claim-modal">
+          <i class="material-icons left">help_outline</i>
+          How to claim an item
+        </a>
+      </div>
+    </section>
+
+    <section class="items-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <h2>Recently found items</h2>
+            <p class="section-text">Select a card to view more information.</p>
+          </div>
+          <span id="item-count" class="item-count">Loading items...</span>
+        </div>
+
+        <div class="row" id="card-section"></div>
+      </div>
+    </section>
+
+    <div id="claim-modal" class="modal">
+      <div class="modal-content">
+        <span class="modal-icon"><i class="material-icons">verified_user</i></span>
+        <h4>How to claim an item</h4>
+        <p>Visit the campus service desk and describe the item. Bring your student ID and any proof that the item belongs to you.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect btn-flat">Close</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

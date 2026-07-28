@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Blue water bottle</title>
+  <desc id="desc">A simple illustration of a blue reusable water bottle.</desc>
+  <rect width="720" height="480" fill="#d9ece8"/>
+  <circle cx="145" cy="110" r="44" fill="#f2b441" opacity=".65"/>
+  <circle cx="585" cy="367" r="74" fill="#fffaf1" opacity=".8"/>
+  <path d="M303 70h114v58l30 38v205c0 28-22 50-50 50h-74c-28 0-50-22-50-50V166l30-38z" fill="#246b91" stroke="#14283d" stroke-width="12"/>
+  <rect x="298" y="54" width="124" height="54" rx="12" fill="#14283d"/>
+  <path d="M296 226h128v89H296z" fill="#2d8077"/>
+  <path d="M322 254c35-22 51 23 85-3" fill="none" stroke="#fffaf1" stroke-width="10" stroke-linecap="round"/>
+  <path d="M294 157h132" stroke="#75b6d4" stroke-width="10" stroke-linecap="round"/>
+  <path d="M294 374h132" stroke="#183f5c" stroke-width="9" stroke-linecap="round"/>
+</svg>
