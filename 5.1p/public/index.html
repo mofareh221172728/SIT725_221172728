@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Books Catalog</title>
+
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f5f5f5;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  li {
+    margin-bottom: 10px;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #cccccc;
+  }
+
+  .title {
+    display: block;
+    font-weight: bold;
+  }
+
+  .author {
+    display: block;
+    margin-top: 5px;
+  }
+</style>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Books Catalog</h1>
+
+    <ul id="books-list"></ul>
+  </main>
+
+  <script>
+    window.addEventListener('load', () => {
+      fetch('/api/books')
+        .then((response) => response.json())
+        .then((result) => {
+          const booksList = document.getElementById('books-list');
+
+          result.data.forEach((book) => {
+            const listItem = document.createElement('li');
+
+            const title = document.createElement('span');
+            title.className = 'title';
+            title.textContent = book.title;
+
+            const author = document.createElement('span');
+            author.className = 'author';
+            author.textContent = `Author: ${book.author}`;
+
+            listItem.appendChild(title);
+            listItem.appendChild(author);
+            booksList.appendChild(listItem);
+          });
+        });
+    });
+  </script>
+</body>
+</html>
